@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trebble, listen together</title>
+<meta name="description" content="Connect Spotify, share the tracks you are actually playing, and compare listening with the people you trust for music.">
+<meta name="theme-color" content="#0f0f0f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23d4a574'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='13' font-weight='700' text-anchor='middle' fill='%230f0f0f'%3ETR%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">TR</span>
+      <span class="brand-name">Trebble</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#how">How it works</a>
+      <a href="#feed">The feed</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn primary sm" href="https://trebble-demo-uf1x.nubo.onl/login">Sign in</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="ui-label accent">Spotify connected</span>
+        <h1>The people you trust for music, in one feed</h1>
+        <p class="lede muted">Trebble reads what you are actually playing on Spotify, lets you share a track with a line about why it matters, and keeps the conversation under the song instead of scattered across group chats.</p>
+        <div class="cta-row">
+          <a class="btn primary lg" href="https://trebble-demo-uf1x.nubo.onl/login">Create an account</a>
+          <a class="btn secondary lg" href="https://trebble-demo-uf1x.nubo.onl/login?mode=login">I already have one</a>
+        </div>
+        <p class="meta">Full playback for Spotify Premium, 30 second previews otherwise.</p>
+      </div>
+
+      <div class="art-wall" aria-label="Recently shared album art">
+        <figure><img src="https://picsum.photos/seed/midnight-city/400/400" alt="Album art for Midnight City by M83" loading="lazy" width="400" height="400"><figcaption><b>Midnight City</b><span>M83</span></figcaption></figure>
+        <figure><img src="https://picsum.photos/seed/nights/400/400" alt="Album art for Nights by Frank Ocean" loading="lazy" width="400" height="400"><figcaption><b>Nights</b><span>Frank Ocean</span></figcaption></figure>
+        <figure><img src="https://picsum.photos/seed/space-song/400/400" alt="Album art for Space Song by Beach House" loading="lazy" width="400" height="400"><figcaption><b>Space Song</b><span>Beach House</span></figcaption></figure>
+        <figure><img src="https://picsum.photos/seed/silver-springs/400/400" alt="Album art for Silver Springs by Fleetwood Mac" loading="lazy" width="400" height="400"><figcaption><b>Silver Springs</b><span>Fleetwood Mac</span></figcaption></figure>
+        <figure><img src="https://picsum.photos/seed/redbone/400/400" alt="Album art for Redbone by Childish Gambino" loading="lazy" width="400" height="400"><figcaption><b>Redbone</b><span>Childish Gambino</span></figcaption></figure>
+        <figure><img src="https://picsum.photos/seed/time-you-and-i/400/400" alt="Album art for Time (You and I) by Khruangbin" loading="lazy" width="400" height="400"><figcaption><b>Time (You and I)</b><span>Khruangbin</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal" id="how">
+    <div class="container">
+      <div class="section-head">
+        <h2>How it works</h2>
+        <p>Three steps, then it runs on its own</p>
+      </div>
+      <div class="step-grid">
+        <article class="step-card">
+          <span class="step-num">01</span>
+          <h3>Connect Spotify</h3>
+          <p class="muted">One OAuth handshake pulls in your top tracks, playlists and subscription tier so playback picks the right mode.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-num">02</span>
+          <h3>Share a track</h3>
+          <p class="muted">Hit share on any row in your library or a playlist, add a line about why it matters, and it lands in the feed with the album art attached.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-num">03</span>
+          <h3>Talk about it</h3>
+          <p class="muted">Friends react and comment under the track itself, and every share stays playable straight from the feed.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal" id="features">
+    <div class="container">
+      <div class="section-head">
+        <h2>Built around the listening, not the profile</h2>
+        <p>What you get once you are in</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Your library ranked</h3>
+          <p class="muted">Top tracks and artists pulled straight from your Spotify history, ordered by how much you actually play them.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Playlists you can open</h3>
+          <p class="muted">Every playlist you own or follow opens in place, track by track, ready to share without leaving the page.</p>
+        </article>
+        <article class="feature-card">
+          <h3>A feed with a memory</h3>
+          <p class="muted">Shares stay put with their comments and reactions, so a song from three weeks ago is still there when you go looking.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Activity from everyone</h3>
+          <p class="muted">See what your friends played, shared and replied to, without follower counts or anything to perform for.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal" id="feed">
+    <div class="container">
+      <div class="section-head">
+        <h2>The feed</h2>
+        <p>One track, one reason, one thread</p>
+      </div>
+      <div class="split">
+        <div class="split-copy">
+          <h3>A share is a song plus the thing you wanted to say about it</h3>
+          <p class="muted">Each post keeps the album art, the track, the person who sent it and their note in a single card. Press play and it runs through your own Spotify session, so nothing gets re-uploaded and artists still get counted.</p>
+          <p class="muted">Reactions sit under the card as small pills, and replies stay attached to the track rather than drifting up a chat log.</p>
+          <a class="btn secondary" href="https://trebble-demo-uf1x.nubo.onl/login">Open the feed</a>
+        </div>
+
+        <div class="share-card">
+          <p class="ui-label">Shared by Mara</p>
+          <div class="share-track">
+            <img src="https://picsum.photos/seed/space-song/400/400" alt="Album art for Space Song by Beach House" loading="lazy" width="64" height="64">
+            <div>
+              <p class="track-title">Space Song</p>
+              <p class="meta">Beach House &middot; Depression Cherry</p>
+            </div>
+          </div>
+          <p class="share-note">Put this on at the end of a night drive and it did the whole job by itself.</p>
+          <div class="pills">
+            <span class="pill active">&#9654; Playing</span>
+            <span class="pill">12 likes</span>
+            <span class="pill">4 replies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <h2>FAQ</h2>
+        <p>Answers before you connect</p>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Do I need Spotify Premium</summary>
+          <p class="muted">No. Without Premium you get 30 second previews on every share. With Premium, tracks play in full through your own session.</p>
+        </details>
+        <details>
+          <summary>Can I use it without connecting Spotify</summary>
+          <p class="muted">Not yet. The library, playlists and playback all come from your Spotify account, so the connection is required to sign in.</p>
+        </details>
+        <details>
+          <summary>Who sees what I share</summary>
+          <p class="muted">Only the people you are connected with. Shares go to your feed and theirs, and nothing is published to a public profile.</p>
+        </details>
+        <details>
+          <summary>Does it cost anything</summary>
+          <p class="muted">No. Trebble is free while it is in early access, and you will hear from us before that changes.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="closer reveal">
+    <div class="container closer-inner">
+      <div>
+        <h2>Start with the last thing you played</h2>
+        <p class="muted">It takes about a minute to connect and share your first track.</p>
+      </div>
+      <a class="btn primary lg" href="https://trebble-demo-uf1x.nubo.onl/login">Get started</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="meta">Trebble</p>
+    <p class="meta">Spotify is a trademark of Spotify AB.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

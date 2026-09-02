@@ -1,0 +1,10 @@
+version = 1
+
+[project]
+name = "trebble-landing"
+
+[[frames]]
+name = "trebble-landing"
+stack = "static"
+port = 3000
+replicas = 1
